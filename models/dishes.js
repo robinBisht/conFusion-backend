@@ -31,7 +31,7 @@ const dishSchema = new Schema({
     },
     description: {
         type:String,
-        require:true
+        required:true
     },
     image: {
         type:String,
